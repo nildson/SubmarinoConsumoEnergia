@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.12.1" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SubmarinoDiagnostico.Domain\SubmarinoDiagnosticos.Domain.csproj" />
+    <ProjectReference Include="..\SubmarinoDiagnosticos.Infrastructure\SubmarinoDiagnosticos.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
